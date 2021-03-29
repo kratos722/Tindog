@@ -1,0 +1,143 @@
+body{
+	font-family:"Monsterrat";
+	}
+
+#title{
+	background-color: #ff4c68;
+	color: white;
+       }
+
+#features{
+	background-color: #fff;
+	padding: 7% 15%;
+	position: relative;
+	z-index: 1;
+}
+.feature-box{
+	text-align: center;
+	padding: 4.5%;
+}
+
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+#cta{
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 7% 15%;
+}
+#footer{
+	padding:7% 15%;
+	text-align: center;
+}
+
+h1{
+	font-family:"Monsterrat-Black";
+	font-size: 3.5rem;
+	line-height: 1.5;
+   }
+h2{
+	font-family: "Monsterrat-Bold";
+	font-size: 2rem;
+}
+ h3{
+	 		font-size: 2rem;
+		 font-family: "Monsterrat-Bold";
+	 }
+p{
+	color: #8f8f8f;
+}
+
+.container-fluid{
+	padding: 3% 15% 16% ;
+		}
+	/* navigation-bar */
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+	}
+	.nav-link{
+		font-family: "Monsterrat-Light";
+		font-size: 1.5rem;
+		color: white;
+	}
+.navbar{
+	padding: 0 0 4.5rem;
+	}
+.nav-item{
+	padding: 0 12px;
+	}
+/* buttons */
+.download-button{
+	margin:5% 3% 5% 0;
+		}
+/* image */
+	.dog{
+		width: 60%;
+		transform: rotate(25deg);
+		position: absolute;
+		right: 30%;
+	}
+	.testimonials-images{
+		width:10%;
+		border-radius: 100%;
+		margin: 20px;
+	}
+	.press-logo{
+		width: 15%;
+		margin: 20px 20px 50px;
+	}
+	/* icons */
+	.icon{
+		color: #ef8172;
+		margin-bottom: 1rem;
+	}
+	.icon:hover{
+		color: #ff4c68;
+	}
+
+	/*pricing-section*/
+
+.pricing-column{
+	padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+	#title{
+		text-align:	center;
+	}
+	.dog{
+		position: static;
+		transform: rotate(0);
+	}
+}
+/* cta-heading */
+.cta-heading{
+	font-family: "Ubuntu";
+	font-size: 3.5rem;
+	line-height: 4.5rem;
+	font-weight: bold;
+}
+
+/*social-media icons */
+.social-media{
+	margin: 20px 10px;
+}
